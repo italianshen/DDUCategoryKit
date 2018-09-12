@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1BDE59D0A674F77E1D7FC8DC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		2CFE7B8DB29889ECE9F62986 /* DDUCategoryCompnent.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DDUCategoryCompnent.podspec; path = ../DDUCategoryCompnent.podspec; sourceTree = "<group>"; };
+		1BDE59D0A674F77E1D7FC8DC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2CFE7B8DB29889ECE9F62986 /* DDUCategoryCompnent.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DDUCategoryCompnent.podspec; path = ../DDUCategoryCompnent.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		552440AE18A1BAB086AA83DD /* Pods-DDUCategoryCompnent_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDUCategoryCompnent_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DDUCategoryCompnent_Example/Pods-DDUCategoryCompnent_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DDUCategoryCompnent_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDUCategoryCompnent_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,7 +64,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C9E3D76BA8D5B7D473BD05C /* Pods-DDUCategoryCompnent_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDUCategoryCompnent_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DDUCategoryCompnent_Example/Pods-DDUCategoryCompnent_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B918493DF4381CE37664242E /* Pods_DDUCategoryCompnent_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDUCategoryCompnent_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C96546634300D1167F310AF2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C96546634300D1167F310AF2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CD39DC47D42041372BE3BE43 /* Pods-DDUCategoryCompnent_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDUCategoryCompnent_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DDUCategoryCompnent_Tests/Pods-DDUCategoryCompnent_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F702648E39760AEB054B3F82 /* Pods_DDUCategoryCompnent_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDUCategoryCompnent_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = italianshen;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = B9VXPSBHWW;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -533,9 +536,11 @@
 			baseConfigurationReference = 9C9E3D76BA8D5B7D473BD05C /* Pods-DDUCategoryCompnent_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B9VXPSBHWW;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DDUCategoryCompnent/DDUCategoryCompnent-Prefix.pch";
 				INFOPLIST_FILE = "DDUCategoryCompnent/DDUCategoryCompnent-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -548,9 +553,11 @@
 			baseConfigurationReference = 552440AE18A1BAB086AA83DD /* Pods-DDUCategoryCompnent_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B9VXPSBHWW;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DDUCategoryCompnent/DDUCategoryCompnent-Prefix.pch";
 				INFOPLIST_FILE = "DDUCategoryCompnent/DDUCategoryCompnent-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

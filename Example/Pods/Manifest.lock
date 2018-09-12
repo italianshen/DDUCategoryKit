@@ -1,0 +1,16 @@
+PODS:
+  - DDUCategoryCompnent (0.1.0)
+
+DEPENDENCIES:
+  - DDUCategoryCompnent (from `../`)
+
+EXTERNAL SOURCES:
+  DDUCategoryCompnent:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DDUCategoryCompnent: e62050fb64285179f6e7e4dfbe044ae93fbdcd23
+
+PODFILE CHECKSUM: 85bc117179e962b14888040a25ca7e70a261c963
+
+COCOAPODS: 1.4.0

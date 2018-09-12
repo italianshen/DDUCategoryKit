@@ -1,0 +1,22 @@
+{
+  "name": "DDUCategoryCompnent",
+  "version": "0.1.0",
+  "summary": "A short description of DDUCategoryCompnent.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/italianshen/DDUCategoryCompnent",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "italianshen": "747976478@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/italianshen/DDUCategoryCompnent.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DDUCategoryCompnent/Classes/**/*"
+}

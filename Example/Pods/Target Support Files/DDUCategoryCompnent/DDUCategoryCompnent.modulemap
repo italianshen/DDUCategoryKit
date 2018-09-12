@@ -1,0 +1,6 @@
+framework module DDUCategoryCompnent {
+  umbrella header "DDUCategoryCompnent-umbrella.h"
+
+  export *
+  module * { export * }
+}
