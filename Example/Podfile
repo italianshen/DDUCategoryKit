@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DDUCategoryCompnent_Example' do
+  pod 'DDUCategoryCompnent', :path => '../'
+
+  target 'DDUCategoryCompnent_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
